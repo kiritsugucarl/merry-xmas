@@ -8,7 +8,6 @@ export default function App() {
         <SlideContainer>
             <Intro gradient="linear-gradient(135deg, #1DB954, #191414)" />
             <Firsts />
-            <Firsts />
         </SlideContainer>
     );
 }
