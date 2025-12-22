@@ -43,12 +43,6 @@ export default function SlideContainer({ children }) {
                     }}
                 >
                     {activeSlide}
-
-                    {index < total - 1 && (
-                        <button className="next-btn" onClick={next}>
-                            Next →
-                        </button>
-                    )}
                 </motion.div>
             </AnimatePresence>
         </motion.div>

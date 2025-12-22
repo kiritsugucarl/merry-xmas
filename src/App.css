@@ -28,8 +28,6 @@
 .slide {
     width: 100%;
     height: 100%;
-    padding: 24px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -73,4 +71,13 @@
     background: white;
     color: black;
     font-weight: bold;
+}
+
+/* Intro */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
 }
