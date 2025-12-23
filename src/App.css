@@ -79,7 +79,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 80%;
     gap: 5rem;
+}
+
+.intro-header, .container-header{
+    text-align: center;
+}
+
+.intro-bottom{
+    text-align: center;
 }
 
 .container-entry{
@@ -93,4 +102,8 @@
 .entry-img{
     width: 50%;
     border-radius: 50%;
+}
+
+.entry{
+    text-align: center;
 }
