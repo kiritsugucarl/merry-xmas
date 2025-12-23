@@ -20,21 +20,21 @@ export default function App() {
     return (
         <SlideContainer>
             <Intro gradient="linear-gradient(135deg, #1DB954, #b76060ff)" />
-            <IntroMessage />
+            <IntroMessage gradient="linear-gradient(270deg, #6565d6ff, #d8599fff)"/>
 
-            <FirstsTitle />
-            <FirstPage1 gradient="linear-gradient(270deg, #6565d6ff, #d8599fff"/>
-            <FirstPage2 gradient="linear-gradient(405deg, #b76060ff, #1DB954"/>
-            <FirstPage3 />
+            <FirstsTitle gradient="linear-gradient(405deg, #b76060ff, #1DB954)" /> 
+            <FirstPage1 gradient="linear-gradient(135deg, #1DB954, #b76060ff)"/>
+            <FirstPage2 gradient="linear-gradient(270deg, #6565d6ff, #d8599fff)"/>
+            <FirstPage3 gradient="linear-gradient(405deg, #b76060ff, #1DB954)"/>
             
-            <HighlightsTitle />
-            <HighlightsP1 />
-            <HighlightsP2 />
-            <HighlightsP3 />
-            <HighlightsP4 />
-            <HighlightsP5 />
+            <HighlightsTitle gradient="linear-gradient(135deg, #1DB954, #b76060ff)"/>
+            <HighlightsP1 gradient="linear-gradient(270deg, #6565d6ff, #d8599fff)"/>
+            <HighlightsP2 gradient="linear-gradient(405deg, #b76060ff, #1DB954)"/>
+            <HighlightsP3 gradient="linear-gradient(135deg, #1DB954, #b76060ff)"/>
+            <HighlightsP4 gradient="linear-gradient(270deg, #6565d6ff, #d8599fff)"/>
+            <HighlightsP5 gradient="linear-gradient(405deg, #b76060ff, #1DB954)"/>
             
-            <StatsPage1 />
+            <StatsPage1 gradient="linear-gradient(135deg, #1DB954, #b76060ff)"/>
         </SlideContainer>
     );
 }

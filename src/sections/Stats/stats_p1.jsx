@@ -1,5 +1,3 @@
-
-
 const stats_p1 = () => {
     return (
         <div className="container">
