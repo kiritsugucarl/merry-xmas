@@ -3,6 +3,7 @@ import firstDate from '../../assets/first-date.jpg'
 const firsts_p3 = () => {
     return(
         <div className="container">
+            <h1 className="container-header">Our Firsts this 2025</h1>
             <div className="container-entry">
                 <p className="entry">First date on August 17</p>
                 <img src={firstDate} alt="" className="entry-img" />
