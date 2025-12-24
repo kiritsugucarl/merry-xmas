@@ -99,6 +99,11 @@
     gap: 2rem;
 }
 
+.container-title{
+    text-align: center;
+    font-size: 2.10rem;
+}
+
 .entry-img{
     width: 50%;
     border-radius: 50%;
@@ -106,4 +111,13 @@
 
 .entry{
     text-align: center;
+}
+
+.message-container{
+    max-height: 50%;
+    overflow: scroll;
+}
+
+.message{
+    text-align: justify;
 }

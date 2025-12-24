@@ -11,6 +11,7 @@ import HighlightsP2 from './sections/Highlights/highlights_p2';
 import HighlightsP3 from './sections/Highlights/highlights_p3';
 import HighlightsP4 from './sections/Highlights/highlights_p4';
 import HighlightsP5 from './sections/Highlights/highlights_p5';
+import FinalMessage from "./sections/FinalMessage";
 
 // Titles
 import FirstsTitle from './sections/Firsts/firsts_title';
@@ -35,6 +36,7 @@ export default function App() {
             <HighlightsP5 gradient="linear-gradient(405deg, #b76060ff, #1DB954)"/>
             
             <StatsPage1 gradient="linear-gradient(135deg, #1DB954, #b76060ff)"/>
+            <FinalMessage gradient="linear-gradient(225deg, #6565d6ff, #d8599fff) "/>
         </SlideContainer>
     );
 }
