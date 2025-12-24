@@ -12,8 +12,6 @@ export default function SlideContainer({ children }) {
     const prev = () => setIndex((i) => Math.max(i - 1, 0));
 
     const activeSlide = slides[index];
-    console.log("slides:", slides);
-    console.log("active:", activeSlide);
 
     const gradient =
         activeSlide.props?.gradient ??
